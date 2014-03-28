@@ -1,6 +1,6 @@
 {
     "name": "boots/enqueue",
-    "type": "library",
+    "type": "boots-extension",
     "description": "Enqueue javascript and css stylesheets",
     "keywords": ["boots","wordpress","enqueue"],
     "homepage": "http://wpboots.com/extend/enqueue",
@@ -13,9 +13,6 @@
             "role": "Developer"
         }
     ],
-    "require": {
-        "composer/installers": "~1.0"
-    },
     "extra": {
         "installer-name": "enqueue"
     }
