@@ -1,6 +1,6 @@
 {
     "name": "boots/enqueue",
-    "type": "boots-extension",
+    "type": "library",
     "description": "Enqueue javascript and css stylesheets",
     "keywords": ["boots","wordpress","enqueue"],
     "homepage": "http://wpboots.com/extend/enqueue",
