@@ -4,7 +4,7 @@
     "description": "Enqueue javascript and css stylesheets",
     "keywords": ["boots","wordpress","enqueue"],
     "homepage": "http://wpboots.com/extend/enqueue",
-    "license": "GPL-3.0+",
+    "license": "GPLv2",
     "authors": [
         {
             "name": "M. Kamal Khan",
@@ -12,8 +12,5 @@
             "homepage": "http://bhittani.com",
             "role": "Developer"
         }
-    ],
-    "extra": {
-        "installer-name": "enqueue"
-    }
+    ]
 }
