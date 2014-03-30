@@ -3,7 +3,7 @@
     "type": "boots-extension",
     "description": "Enqueue javascript and css stylesheets",
     "keywords": ["boots","wordpress","enqueue"],
-    "homepage": "http://wpboots.com/extend/enqueue",
+    "homepage": "http://wpboots.com/extensions/enqueue",
     "license": "GPLv2",
     "authors": [
         {
