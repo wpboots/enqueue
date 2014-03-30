@@ -6,7 +6,7 @@ This is an extension for the [Boots Framework](http://wpboots.com).
 
 ## Documentation
 
-The documentation for Boots - Enqueue can be found at [http://wpboots.dev/extensions/enqueue/](http://wpboots.dev/extensions/enqueue/)
+The documentation for Boots - Enqueue can be found at [http://wpboots.com/extensions/enqueue/](http://wpboots.com/extensions/enqueue/)
 
 ## License
 
