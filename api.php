@@ -39,8 +39,10 @@ class Boots_Enqueue
 
     private $Settings;
 
-    private $Scripts = array();
+    private $dir;
+    private $url;
 
+    private $Scripts = array();
     private $Styles = array();
 
     private $type = null;
@@ -50,10 +52,17 @@ class Boots_Enqueue
     {
         $this->Boots = $Boots;
         $this->Settings = $Settings;
+        $this->dir = $dir;
+        $this->url = $url;
     }
 
     protected function js($slug, $file, $Dependancies, $Params, $ver, $footer, $raw)
     {
+        if(wp_script_is($slug))
+        {
+            return false;
+        }
+
         if(!$file)
         {
             wp_enqueue_script($slug);
@@ -70,6 +79,11 @@ class Boots_Enqueue
 
     protected function css($slug, $file, $Dependancies, $ver, $media, $raw)
     {
+        if(wp_style_is($slug))
+        {
+            return false;
+        }
+
         if(!$file)
         {
             wp_enqueue_style($slug);
