@@ -136,7 +136,7 @@ class Boots_Enqueue
         return $this;
     }
 
-    public function vars($key, $val)
+    public function vars($key, $val = null)
     {
         $Var = is_array($key) ? $key : array($key => $val);
         $Vars = array_merge((array) $this->option('vars'), $Var);
